@@ -8,7 +8,7 @@ export default function Page() {
         <br />
         <h1>Get in Touch</h1>
         <p>
-          Let's collaborate on your next project. Reach out to discuss how we
+          Let&apos;s collaborate on your next project. Reach out to discuss how we
           can create something extraordinary together.
         </p>
         <br />
