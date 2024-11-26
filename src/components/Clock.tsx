@@ -54,7 +54,7 @@ const Clock: React.FC = () => {
   };
 
   return (
-    <div className="w-fit fixed right-0 font-[family-name:var(--font-geist-sans)]">
+    <div className="w-fit fixed right-0 font-[family-name:var(--font-geist-sans)] z-50">
       <div className="lg:p-6 p-3 text-right">
         <p className="lg:text-base font-semibold">
           {time.toLocaleTimeString()}

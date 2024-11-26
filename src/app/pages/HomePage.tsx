@@ -20,25 +20,18 @@ export const HomePage = () => {
         I am Raksmey a UX/UI designer. I specialize in crafting intuitive and
         visually appealing user experiences through UX/UI design.
       </p>
-      <div className="flex gap-4 lg:mt-8 mt-4">
+      <div className="flex gap-4 lg:mt-4 mt-2">
         <Link
-          className="flex items-center justify-center gap-2 py-2.5 px-5 hover:underline hover:underline-offset-4"
-          href="#contact"
+          className="flex items-center justify-center gap-2 py-3 px-6 hover:underline hover:underline-offset-4 border rounded-2xl"
+          href="/Services"
         >
-          <p>SERVICES</p>
-          {/* <Image
-            aria-hidden
-            src="/images/service.svg"
-            alt="Telegram"
-            width={20}
-            height={20}
-          /> */}
+          <p className="font-medium">Services</p>
         </Link>
         <Link
-          className="flex items-center justify-center gap-2 py-2.5 px-5 hover:underline hover:underline-offset-4 rounded-xl bg-black text-white"
-          href="#contact"
+          className="flex items-center justify-center gap-2 py-3 px-6 hover:underline hover:underline-offset-4 rounded-2xl bg-black text-white"
+          href="/Contact"
         >
-          <p>PORTFOLIO</p>
+          <p className="font-medium">Contact</p>
         </Link>
       </div>
     </main>

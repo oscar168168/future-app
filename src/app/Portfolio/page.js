@@ -8,30 +8,35 @@ const projects = [
     desc: "Mobile Application",
     image: "/images/prohr.png",
     link: "/",
+    tag: "Mobile App",  
   },
   {
     name: "Prometeus KC New Website",
     desc: "Landing Page",
     image: "/images/newweb.png",
     link: "/",
+    tag: "Web Design",
   },
   {
     name: "Prometeus KC Old Website",
     desc: "Landing Page",
     image: "/images/oldweb.png",
     link: "/",
+    tag: "Web Design",
   },
   {
     name: "Smarter HR",
     desc: "Web System",
     image: "/images/smarthr.png",
-    link: "/",
+    link: "/",  
+    tag: "Web System",
   },
   {
     name: "eReader Cambodia",
     desc: "Mobile Application",
     image: "/images/ereader.png",
     link: "/",
+    tag: "Mobile App",
   },
 ];
 
@@ -47,25 +52,26 @@ export default function Page() {
           visually appealing user experiences through UX/UI design.
         </p>
         <br />
-        <div className="grid lg:grid-cols-3 gap-12 pb-16  w-full">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 pb-16 w-full">
           {projects.map((project, index) => (
             <Link
               href={project.link}
-              className="flex justify-start flex-col  gap-2"
+              className="flex justify-center flex-col  gap-2"
               key={index}
             >
-              <div className="lg:w-[500px] lg:h-[350px] relative">
+              <div className="lg:w-auto lg:h-[350px] relative">
                 <Image
                   aria-hidden
                   src={project.image}
                   alt="Portfolio"
-                  width={500}
+                  width={800}
                   height={500}
-                  className="object-cover lg:h-full lg:w-full rounded-sm hover:scale-105  transition duration-500 ease-in-out"
+                  className="object-cover lg:h-full lg:w-full rounded-sm hover:scale-105 transition-all ease-in-out duration-300"
                 />
               </div>
               <div>
                 {" "}
+                <h5 className="font-medium lg:text-base text-sm px-4 py-1.5 border w-fit rounded-full my-2">{project.tag}</h5>
                 <h2 className="font-semibold lg:text-xl text-base">
                   {project.name}
                 </h2>

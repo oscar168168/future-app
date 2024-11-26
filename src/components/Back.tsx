@@ -6,7 +6,7 @@ const Back = () => {
   return (
     <Link
       href="/"
-      className="hover:underline hover:underline-offset-4 flex items-center justify-center gap-2 fixed left-0 top-0 lg:p-6 p-3"
+      className="hover:underline hover:underline-offset-4 flex items-center justify-center gap-2 fixed left-0 top-0 lg:p-6 p-3 z-50"
     >
       <Image
         aria-hidden
