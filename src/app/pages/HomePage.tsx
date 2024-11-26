@@ -22,13 +22,13 @@ export const HomePage = () => {
       </p>
       <div className="flex gap-4 lg:mt-4 mt-2">
         <Link
-          className="flex items-center justify-center gap-2 py-3 px-6 hover:underline hover:underline-offset-4 border rounded-2xl"
+          className="flex items-center justify-center gap-2 py-3 px-6 hover:underline hover:underline-offset-4 border rounded-xl"
           href="/Services"
         >
           <p className="font-medium">Services</p>
         </Link>
         <Link
-          className="flex items-center justify-center gap-2 py-3 px-6 hover:underline hover:underline-offset-4 rounded-2xl bg-black text-white"
+          className="flex items-center justify-center gap-2 py-3 px-6 hover:underline hover:underline-offset-4 rounded-xl bg-black text-white"
           href="/Contact"
         >
           <p className="font-medium">Contact</p>

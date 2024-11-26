@@ -1,16 +1,15 @@
 import Back from "@/components/Back";
 
-
 export default function Page() {
   return (
     <div className="justify-center flex items-center min-h-screen w-full lg:p-20 p-8 pb-20 gap-16 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
-      <Back />
-      <br />
-        <h1>My Educations</h1>
+        <Back />
+        <br />
+        <h1>Get in Touch</h1>
         <p>
-          I am Raksmey a UX/UI designer. I specialize in crafting intuitive and
-          visually appealing user experiences through UX/UI design.
+          Let's collaborate on your next project. Reach out to discuss how we
+          can create something extraordinary together.
         </p>
         <br />
       </main>

@@ -37,8 +37,8 @@ export const Footer = () => {
           key={link.href}
           className={`link ${
             pathname === link.href
-              ? "flex items-center flex-col lg:flex-row gap-2 underline underline-offset-4"
-              : "flex items-center flex-col lg:flex-row gap-2 hover:underline hover:underline-offset-4 "
+              ? "flex items-center flex-col lg:flex-row lg:gap-2 underline underline-offset-4"
+              : "flex items-center flex-col lg:flex-row lg:gap-2 hover:underline hover:underline-offset-4 "
           }`}
           href={link.href}
           rel="noopener noreferrer"
