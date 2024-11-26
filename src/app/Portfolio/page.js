@@ -8,7 +8,7 @@ const projects = [
     desc: "Mobile Application",
     image: "/images/prohr.png",
     link: "/",
-    tag: "Mobile App",  
+    tag: "Mobile App",
   },
   {
     name: "Prometeus KC New Website",
@@ -28,7 +28,7 @@ const projects = [
     name: "Smarter HR",
     desc: "Web System",
     image: "/images/smarthr.png",
-    link: "/",  
+    link: "/",
     tag: "Web System",
   },
   {
@@ -46,10 +46,12 @@ export default function Page() {
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
         <Back />
         <br />
-        <h1>My Professional Projects</h1>
+        <h1>
+          Creating Memorable Designs for Web, Mobile, and Digital Experiences
+        </h1>
         <p>
-          I am Raksmey a UX/UI designer. I specialize in crafting intuitive and
-          visually appealing user experiences through UX/UI design.
+          Our user-focused designs optimize efficiency and drive business
+          success.
         </p>
         <br />
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 pb-16 w-full">
@@ -71,7 +73,9 @@ export default function Page() {
               </div>
               <div>
                 {" "}
-                <h5 className="font-medium lg:text-base text-sm px-4 py-1.5 border w-fit rounded-full my-2">{project.tag}</h5>
+                <h5 className="font-medium lg:text-base text-sm px-4 py-1.5 border w-fit rounded-full my-2">
+                  {project.tag}
+                </h5>
                 <h2 className="font-semibold lg:text-xl text-base">
                   {project.name}
                 </h2>

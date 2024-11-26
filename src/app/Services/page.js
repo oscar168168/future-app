@@ -6,10 +6,11 @@ export default function Page() {
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
         <Back />
         <br />
-        <h1>Service Offers</h1>
+        <h1>Crafting Digital Experiences That Inspire</h1>
         <p>
-          I am Raksmey a UX/UI designer. I specialize in crafting intuitive and
-          visually appealing user experiences through UX/UI design.
+          As a passionate and detail-driven designer, I create impactful
+          websites, engaging mobile apps, and seamless digital experiences that
+          leave a lasting impression.
         </p>
         <br />
       </main>

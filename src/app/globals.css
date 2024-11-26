@@ -74,7 +74,7 @@ body {
     background-image: url('/images/noise.svg');
   }
   h1{
-    @apply lg:text-8xl text-5xl font-medium;
+    @apply lg:text-8xl text-4xl font-medium;
   }
   p{
     @apply lg:text-lg text-sm font-light;

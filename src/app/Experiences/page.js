@@ -9,8 +9,7 @@ export default function Page() {
         <br />
         <h1>My Professional Experience</h1>
         <p>
-          My work revolves around crafting seamless digital experiences through
-          research, design, and collaboration.
+        With a focus on user-centered design, I create digital experiences that enhance engagement, streamline workflows, and contribute to business growth.
         </p>
         <br />
 
