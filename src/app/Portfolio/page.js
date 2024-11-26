@@ -61,14 +61,14 @@ export default function Page() {
               className="flex justify-center flex-col  gap-2"
               key={index}
             >
-              <div className="lg:w-auto lg:h-[350px] relative">
+              <div className="lg:w-auto lg:h-[350px] md:h-[250px] relative">
                 <Image
                   aria-hidden
                   src={project.image}
                   alt="Portfolio"
                   width={800}
                   height={500}
-                  className="object-cover lg:h-full lg:w-full rounded-sm hover:scale-105 transition-all ease-in-out duration-300"
+                  className="object-cover h-full lg:w-full rounded-sm hover:scale-105 transition-all ease-in-out duration-300"
                 />
               </div>
               <div>
