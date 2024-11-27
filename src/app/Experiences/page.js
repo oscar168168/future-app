@@ -7,12 +7,13 @@ export default function Page() {
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
         <Back />
         <br />
+        <div className="space-y-2">
         <h1>Experience That Delivers Results</h1>
         <p>
           With a focus on user-centered design, I create digital experiences
           that enhance engagement, streamline workflows, and contribute to
           business growth.
-        </p>
+        </p></div>
         <br />
 
         {/* Prometeus KC */}

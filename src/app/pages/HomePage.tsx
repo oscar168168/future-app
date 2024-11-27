@@ -13,13 +13,15 @@ export const HomePage = () => {
         height={100}
         className="rounded-full"
       />
-      <h1 className="lg:text-[120px] lg:font-medium">
-        Discover Your Uniqueness, Unlock Your Creativity.
-      </h1>
-      <p className="lg:text-xl text-sm font-light">
-        I am Raksmey a UX/UI designer. I specialize in crafting intuitive and
-        visually appealing user experiences through UX/UI design.
-      </p>
+      <div className="space-y-2">
+        <h1 className="lg:text-[120px] lg:font-medium">
+          Discover Your Uniqueness, Unlock Your Creativity.
+        </h1>
+        <p className="lg:text-xl text-sm font-light">
+          I am Raksmey a UX/UI designer. I specialize in crafting intuitive and
+          visually appealing user experiences through UX/UI design.
+        </p>
+      </div>
       <div className="flex gap-4 lg:mt-4 mt-2">
         <Link
           className="flex items-center justify-center gap-2 py-3 px-6 hover:underline hover:underline-offset-4 border rounded-xl"

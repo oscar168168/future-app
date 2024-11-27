@@ -6,11 +6,12 @@ export default function Page() {
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
         <Back />
         <br />
+        <div className="space-y-2">
         <h1>Get in Touch</h1>
         <p>
           Let&apos;s collaborate on your next project. Reach out to discuss how we
           can create something extraordinary together.
-        </p>
+        </p></div>
         <br />
       </main>
     </div>

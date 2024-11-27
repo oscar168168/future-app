@@ -46,13 +46,15 @@ export default function Page() {
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
         <Back />
         <br />
-        <h1>
-          Creating Memorable Designs for Web, Mobile, and Digital Experiences
-        </h1>
-        <p>
-          Our user-focused designs optimize efficiency and drive business
-          success.
-        </p>
+        <div className="space-y-2">
+          <h1>
+            Creating Memorable Designs for Web, Mobile, and Digital Experiences
+          </h1>
+          <p>
+            Our user-focused designs optimize efficiency and drive business
+            success.
+          </p>
+        </div>
         <br />
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 pb-16 w-full">
           {projects.map((project, index) => (

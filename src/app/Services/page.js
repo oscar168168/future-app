@@ -6,12 +6,14 @@ export default function Page() {
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
         <Back />
         <br />
-        <h1>Crafting Digital Experiences That Inspire</h1>
-        <p>
-          As a passionate and detail-driven designer, I create impactful
-          websites, engaging mobile apps, and seamless digital experiences that
-          leave a lasting impression.
-        </p>
+        <div className="space-y-2">
+          <h1>Crafting Digital Experiences That Inspire</h1>
+          <p>
+            As a passionate and detail-driven designer, I create impactful
+            websites, engaging mobile apps, and seamless digital experiences
+            that leave a lasting impression.
+          </p>
+        </div>
         <br />
       </main>
     </div>
