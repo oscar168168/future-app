@@ -24,16 +24,16 @@ export const HomePage = () => {
       </div>
       <div className="flex gap-4 lg:mt-4 mt-2">
         <Link
-          className="flex items-center justify-center gap-2 py-3 px-6 hover:underline hover:underline-offset-4 border rounded-xl"
-          href="/Services"
+          className="flex items-center justify-center gap-2 py-3 px-12 hover:underline hover:underline-offset-4 border rounded-2xl transition-all duration-500 ease-in-out"
+          href="/Portfolio"
         >
-          <p className="font-medium">Services</p>
+          <p className="font-medium">View My Work</p>
         </Link>
         <Link
-          className="flex items-center justify-center gap-2 py-3 px-6 hover:underline hover:underline-offset-4 rounded-xl bg-black text-white"
+          className="flex items-center justify-center gap-2 py-3 px-12 hover:underline hover:underline-offset-4 rounded-2xl bg-black text-white -rotate-6 hover:rotate-0 transition-all duration-500 ease-in-out"
           href="/Contact"
         >
-          <p className="font-medium">Contact</p>
+          <p className="font-medium">Let&apos;s Collaborate</p>
         </Link>
       </div>
     </main>
