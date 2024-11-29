@@ -20,10 +20,10 @@ export default function Page() {
               <h5 className="font-medium lg:text-base text-sm px-4 py-1.5 border w-fit rounded-full my-2">
                 Landing Page
               </h5>
-              <h1 className="lg:text-7xl text-3xl">Rat Raksmey's Portfolio</h1>
+              <h1 className="lg:text-7xl text-3xl">Rat Raksmey&apos;s Portfolio</h1>
               <p>
-                Rat Raksmey's Portfolio, a mobile app developed by Rat Raksmey.
-                The app is designed to showcase Rat's skills and projects.
+                Rat Raksmey&apos;s Portfolio, a mobile app developed by Rat Raksmey.
+                The app is designed to showcase Rat&apos;s skills and projects.
               </p>
             </div>
             <div className="grid lg:grid-cols-4 grid-cols-3 lg:gap-4 gap-2">
