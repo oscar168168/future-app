@@ -10,8 +10,8 @@ const Back = () => {
     >
       <Image
         aria-hidden
-        src="/images/back.svg"
-        alt="Back"
+        src="/images/home.svg"
+        alt="Home"
         width={24}
         height={24}
       />

@@ -4,45 +4,52 @@ import Link from "next/link";
 
 const projects = [
   {
-    name: "Prometeus HR. App",
-    desc: "Mobile Application",
-    image: "/images/prohr.png",
+    name: "Rat Raksmey Web Portfolio",
+    desc: "My current web portfolio",
+    image: "/images/mywebport.png",
     link: "/",
+    tag: "Landing Page",
+  },
+  {
+    name: "Prometeus HR. App",
+    desc: "An internal HR mobile app",
+    image: "/images/prohr.png",
+    link: "/PortProHRMA",
     tag: "Mobile App",
   },
   {
     name: "Prometeus KC New Website",
-    desc: "Landing Page",
+    desc: "The new version of the Prometeus KC website",
     image: "/images/newweb.png",
-    link: "/",
-    tag: "Web Design",
+    link: "/PortNewWeb",
+    tag: "Landing Page",
   },
   {
     name: "Prometeus KC Old Website",
-    desc: "Landing Page",
+    desc: "The old version of the Prometeus KC website",
     image: "/images/oldweb.png",
     link: "/",
-    tag: "Web Design",
+    tag: "Landing Page",
   },
   {
-    name: "Smarter HR",
-    desc: "Web System",
+    name: "Prometeus HR. System",
+    desc: "An internal HR web system",
     image: "/images/smarthr.png",
     link: "/",
     tag: "Web System",
   },
   {
     name: "eReader Cambodia",
-    desc: "Mobile Application",
+    desc: "A library & digital book platform",
     image: "/images/ereader.png",
     link: "/",
-    tag: "Mobile App",
+    tag: "Mobile Application",
   },
 ];
 
 export default function Page() {
   return (
-    <div className="justify-center flex items-center min-h-screen w-full lg:p-20 p-8 pb-20 gap-16 font-[family-name:var(--font-geist-sans)]">
+    <div className="justify-center flex items-center min-h-screen w-full lg:p-20 p-8 pb-20 gap-16">
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
         <Back />
         <br />
@@ -56,14 +63,14 @@ export default function Page() {
           </p>
         </div>
         <br />
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 pb-16 w-full">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-12 gap-8 pb-16 w-full justify-start items-start">
           {projects.map((project, index) => (
             <Link
               href={project.link}
               className="flex justify-center flex-col  gap-2"
               key={index}
             >
-              <div className="lg:w-auto lg:h-[350px] md:h-[250px] relative">
+              <div className="lg:w-auto lg:h-[400px] md:h-[250px] relative">
                 <Image
                   aria-hidden
                   src={project.image}
@@ -78,10 +85,10 @@ export default function Page() {
                 <h5 className="font-medium lg:text-base text-sm px-4 py-1.5 border w-fit rounded-full my-2">
                   {project.tag}
                 </h5>
-                <h2 className="font-semibold lg:text-xl text-base">
+                <h2 className="font-semibold lg:text-2xl text-lg">
                   {project.name}
                 </h2>
-                <p>{project.desc}</p>
+                <p>{project.desc}...</p>
               </div>
             </Link>
           ))}

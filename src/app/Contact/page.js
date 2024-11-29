@@ -2,9 +2,32 @@ import Back from "@/components/Back";
 import Image from "next/image";
 import Link from "next/link";
 
+const contacts = [
+  {
+    name: "Telegram",
+    icon: "/images/telegram.svg",
+    link: "https://t.me/doublepainz",
+  },
+  {
+    name: "Linkind",
+    icon: "/images/linkedin.svg",
+    link: "https://www.linkedin.com/in/rat-raksmey-9abb36281/",
+  },
+  {
+    name: "Behance",
+    icon: "/images/behance.svg",
+    link: "https://www.behance.net/raksmeyrat",
+  },
+  {
+    name: "Dribble",
+    icon: "/images/dribbble.svg",
+    link: "https://dribbble.com/Oscar011",
+  },
+];
+
 export default function Page() {
   return (
-    <div className="justify-center flex items-center min-h-screen w-full lg:p-20 p-8 pb-20 gap-16 font-[family-name:var(--font-geist-sans)]">
+    <div className="justify-center flex items-center min-h-screen w-full lg:p-20 p-8 pb-20 gap-16">
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
         <Back />
         <br />
@@ -15,36 +38,24 @@ export default function Page() {
             how we can create something extraordinary together.
           </p>
         </div>
-        <div className="flex gap-6">
-          <Link
-            className="bg-black text-white rounded-full lg:w-24 lg:h-24 w-16 h-16 flex items-center justify-center hover:scale-90 transition-all duration-500 ease-in-out"
-            href="https://www.linkedin.com/in/rat-raksmey/"
-            target="_blank"
-          >
-            {" "}
-            <Image
-              aria-hidden
-              src="/images/telegram1.svg"
-              alt="Linkedin"
-              width={18}
-              height={18}
-              className="lg:w-6 lg:h-6"
-            />
-          </Link>
-          {/* <Link
-            className="bg-black text-white rounded-full lg:w-24 lg:h-24 w-16 h-16 flex items-center justify-center hover:scale-90 transition-all duration-500 ease-in-out"
-            href="https://www.linkedin.com/in/rat-raksmey/"
-            target="_blank"
-          >
-            {" "}
-            <Image
-              aria-hidden
-              src="/images/linkedin1.svg"
-              alt="Linkedin"
-              width={28}
-              height={28}
-            />
-          </Link> */}
+        <div className="flex lg:gap-8 gap-4">
+          {contacts.map((contact, index) => (
+            <Link
+              href={contact.link}
+              className="border-black border text-white rounded-full lg:w-20 lg:h-20 w-16 h-16 flex items-center justify-center hover:scale-90 transition-all duration-500 ease-in-out"
+              key={index}
+            >
+              {" "}
+              <Image
+                aria-hidden
+                src={contact.icon}
+                alt={contact.name}
+                width={18}
+                height={18}
+                className="lg:w-6 lg:h-6"
+              />
+            </Link>
+          ))}
         </div>
       </main>
     </div>
