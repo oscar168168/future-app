@@ -20,12 +20,12 @@ export default function Page() {
               <h5 className="font-medium lg:text-base text-sm px-4 py-1.5 border w-fit rounded-full my-2">
                 Mobile App
               </h5>
-              <h1 className="lg:text-7xl text-3xl">Prometeus HR. App</h1>
+              <h1 className="lg:text-7xl text-3xl">Prometeus HR. Mobile App</h1>
               <p>
-                Prometeus KC Co., Ltd, a start up Marketing & Technology company
-                in Phnom Penh, Cambodia. The company needed a new modern mobile
-                application to better communicate their value proposition and
-                increase user engagement.
+                Prometeus Hr. Mobile App, an internal HR mobile application of
+                Prometeus KC Co., Ltd. The app is designed to help employees
+                manage their work schedules, leave requests, and access
+                employee information.
               </p>
             </div>
             <div className="grid lg:grid-cols-4 grid-cols-3 lg:gap-4 gap-2">

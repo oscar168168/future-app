@@ -7,7 +7,7 @@ const projects = [
     name: "Rat Raksmey Web Portfolio",
     desc: "My current web portfolio",
     image: "/images/mywebport.png",
-    link: "/",
+    link: "/PortMine",
     tag: "Landing Page",
   },
   {
@@ -28,21 +28,21 @@ const projects = [
     name: "Prometeus KC Old Website",
     desc: "The old version of the Prometeus KC website",
     image: "/images/oldweb.png",
-    link: "/",
+    link: "/PortOldWeb",
     tag: "Landing Page",
   },
   {
     name: "Prometeus HR. System",
     desc: "An internal HR web system",
     image: "/images/smarthr.png",
-    link: "/",
+    link: "/PortProHRWS",
     tag: "Web System",
   },
   {
     name: "eReader Cambodia",
     desc: "A library & digital book platform",
     image: "/images/ereader.png",
-    link: "/",
+    link: "/PorteReader",
     tag: "Mobile Application",
   },
 ];
