@@ -1,10 +1,10 @@
-import Back from "@/components/Back";
+import BackHome from "@/components/BackHome";
 
 export default function Page() {
   return (
     <div className="justify-center flex items-center min-h-screen w-full lg:p-20 p-8 pb-20 gap-16">
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
-        <Back />
+        <BackHome />
         <br />
         <div className="lg:grid grid-cols-6 gap-8 pb-16 w-full space-y-4">
           <h1 className="col-span-3">

@@ -1,11 +1,11 @@
-import Back from "@/components/Back";
+import BackPort from "@/components/BackPort";
 import Image from "next/image";
 
 export default function Page() {
   return (
     <div className="justify-center flex items-center min-h-screen w-full lg:p-20 p-8 pb-20 gap-16">
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
-        <Back />
+        <BackPort />
         <br />
         <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-16 gap-4">
           <Image

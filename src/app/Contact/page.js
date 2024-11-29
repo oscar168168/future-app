@@ -1,4 +1,4 @@
-import Back from "@/components/Back";
+import BackHome from "@/components/BackHome";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,7 +29,7 @@ export default function Page() {
   return (
     <div className="justify-center flex items-center min-h-screen w-full lg:p-20 p-8 pb-20 gap-16">
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
-        <Back />
+        <BackHome />
         <br />
         <div className="space-y-2">
           <h1>Get in Touch</h1>
@@ -44,6 +44,7 @@ export default function Page() {
               href={contact.link}
               className="border-black border text-white rounded-full lg:w-20 lg:h-20 w-16 h-16 flex items-center justify-center hover:scale-90 transition-all duration-500 ease-in-out"
               key={index}
+              target="_blank"
             >
               {" "}
               <Image
