@@ -4,10 +4,10 @@ import "./globals.css";
 import Clock from "@/components/Clock";
 import { Footer } from "@/components/Footer";
 
-const poppins = Poppins({
-  weight: ["200", "300", "400", "500"],
-  subsets: ["latin"],
-});
+// const poppins = Poppins({
+//   weight: ["200", "300", "400", "500"],
+//   subsets: ["latin"],
+// });
 
 const jakata = Plus_Jakarta_Sans({
   subsets: ["latin"],
