@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans, Poppins } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Clock from "@/components/Clock";
 import { Footer } from "@/components/Footer";
 
-// const poppins = Poppins({
-//   weight: ["200", "300", "400", "500"],
-//   subsets: ["latin"],
-// });
+
 
 const jakata = Plus_Jakarta_Sans({
   subsets: ["latin"],
