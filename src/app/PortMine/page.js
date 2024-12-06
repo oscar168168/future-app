@@ -67,7 +67,7 @@ export default function Page() {
         </div>
         <br />
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 justify-center w-full items-center">
-          {highlight.map((item, index) => (
+          {highlight.map((item) => (
             <Image
               
               src={item.src}
