@@ -1,5 +1,25 @@
+"use client";
 import BackPort from "@/components/BackPort";
 import Image from "next/image";
+
+const highlight = [
+  {
+    src: "/images/subIcon.png",
+    alt: "Portfolio",
+  },
+  {
+    src: "/images/subColor.png",
+    alt: "Portfolio",
+  },
+  {
+    src: "/images/subPort.png",
+    alt: "Portfolio",
+  },
+  {
+    src: "/images/subMobile.png",
+    alt: "Portfolio",
+  },
+];
 
 export default function Page() {
   return (
@@ -9,7 +29,7 @@ export default function Page() {
         <br />
         <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-16 gap-4">
           <Image
-            src={"/images/prohr.png"}
+            src={"/images/mywebport.png"}
             alt="Portfolio"
             width={1000}
             height={800}
@@ -20,10 +40,13 @@ export default function Page() {
               <h5 className="font-medium lg:text-base text-sm px-4 py-1.5 border w-fit rounded-full my-2">
                 Landing Page
               </h5>
-              <h1 className="lg:text-7xl text-3xl">Rat Raksmey&apos;s Portfolio</h1>
+              <h1 className="lg:text-7xl text-3xl">
+                Rat Raksmey&apos;s Portfolio
+              </h1>
               <p>
-                Rat Raksmey&apos;s Portfolio, a mobile app developed by Rat Raksmey.
-                The app is designed to showcase Rat&apos;s skills and projects.
+                Rat Raksmey&apos;s Portfolio, a mobile app developed by Rat
+                Raksmey. The app is designed to showcase Rat&apos;s skills and
+                projects.
               </p>
             </div>
             <div className="grid lg:grid-cols-4 grid-cols-3 lg:gap-4 gap-2">
@@ -43,6 +66,19 @@ export default function Page() {
           </div>
         </div>
         <br />
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 justify-center w-full items-center">
+          {highlight.map((item, index) => (
+            <Image
+              
+              src={item.src}
+              alt={item.alt}
+              width={1500}
+              height={800}
+              className="object-cover w-full h-full rounded-sm"
+              key={item.src}
+            />
+          ))}
+        </div>
       </main>
     </div>
   );

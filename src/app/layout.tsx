@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Plus_Jakarta_Sans, Poppins } from "next/font/google";
 import "./globals.css";
 import Clock from "@/components/Clock";
 import { Footer } from "@/components/Footer";
@@ -8,6 +8,11 @@ const poppins = Poppins({
   weight: ["200", "300", "400", "500"],
   subsets: ["latin"],
 });
+
+const jakata = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600",],
+})
 
 export const metadata: Metadata = {
   title: "Raksmey Rat",
@@ -21,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={jakata.className}>
         <Clock />
         {children}
         <Footer />
