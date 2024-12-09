@@ -6,11 +6,16 @@ export default function Page() {
       <main className="flex flex-col lg:gap-8 gap-6 row-start-2 items-start">
         <BackHome />
         <br />
-        <div className="lg:grid grid-cols-6 gap-8 pb-16 w-full space-y-4">
-          <h1 className="col-span-3">
-            Rat Raksmey - <span className="font-light"> UX/UI Designer</span>
-          </h1>
-          <div className="col-span-3 lg:space-y-8">
+        <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-12 gap-6 pb-16 w-full space-y-4">
+          <div className="col-span-1">
+            {" "}
+            <h1>Rat Raksmey -</h1>
+            <h1 className="font-light lg:text-7xl text-3xl text-black/20">
+              UX/UI Designer
+            </h1>
+          </div>
+
+          <div className="col-span-1 lg:space-y-8">
             <p className=" lg:text-xl font-light text-base">
               Hi, I&apos;m Rat Raksmey, a passionate UX/UI designer who loves
               turning complex ideas into user-friendly experiences. With 2 years
@@ -18,7 +23,7 @@ export default function Page() {
               beautiful but also functional, ensuring they meet user needs and
               business goals.
             </p>
-            <div className="flex gap-12 mt-4">
+            <div className="flex gap-12 mt-6">
               <div>
                 <h1 className="">02</h1>
                 <p>Years of Experience</p>
@@ -30,7 +35,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-{/* 
+        {/* 
         <div className="grid grid-cols-4 gap-8 pb-16 w-full">
           <h5 className="col-span-1 lg:text-xl text-base font-medium">
             Expertise

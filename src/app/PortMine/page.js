@@ -4,19 +4,19 @@ import Image from "next/image";
 
 const highlight = [
   {
-    src: "/images/subIcon.png",
+    src: "/images/mywebport-icon.png",
     alt: "Portfolio",
   },
   {
-    src: "/images/subColor.png",
+    src: "/images/mywebport-color.png",
     alt: "Portfolio",
   },
   {
-    src: "/images/subPort.png",
+    src: "/images/mywebport-desktop.png",
     alt: "Portfolio",
   },
   {
-    src: "/images/subMobile.png",
+    src: "/images/mywebport-mobile.png",
     alt: "Portfolio",
   },
 ];

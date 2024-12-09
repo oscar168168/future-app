@@ -1,6 +1,26 @@
 import BackPort from "@/components/BackPort";
 import Image from "next/image";
 
+const highlight = [
+  {
+    src: "/images/prohr-icon.png",
+    alt: "Portfolio",
+  },
+  {
+    src: "/images/prohr-color.png",
+    alt: "Portfolio",
+  },
+  {
+    src: "/images/prohr-mobile2.png",
+    alt: "Portfolio",
+  },
+  {
+    src: "/images/prohr-mobile.png",
+    alt: "Portfolio",
+  },
+];
+
+
 export default function Page() {
   return (
     <div className="justify-center flex items-center min-h-screen w-full lg:p-20 p-8 pb-20 gap-16">
@@ -45,6 +65,19 @@ export default function Page() {
           </div>
         </div>
         <br />
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 justify-center w-full items-center">
+          {highlight.map((item) => (
+            <Image
+              
+              src={item.src}
+              alt={item.alt}
+              width={1500}
+              height={800}
+              className="object-cover w-full h-full rounded-sm"
+              key={item.src}
+            />
+          ))}
+        </div>
       </main>
     </div>
   );
